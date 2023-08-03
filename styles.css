@@ -1,0 +1,83 @@
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.page {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+}
+
+.header {
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    padding-left: 2.5%;
+    border-bottom: 2px solid black;
+}
+
+.logo {
+    height: 50px;
+    width: 50px;
+}
+
+.settings {
+    display: flex;
+    align-items: center;
+    padding-left: 2.5%;
+    gap: 30px;
+    height: 9vh;
+    border-bottom: 2px solid black;
+}
+
+#city {
+    width: 200px;
+}
+
+.magnify {
+    width: 12.5px;
+    height: 12.5px;
+}
+
+.temp-type {
+    display: flex;
+    gap: 10px;
+}
+
+.main {
+    height: 80vh;
+    color: white;
+    background-size: cover;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.current-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 25px;
+    gap: 10px;
+}
+
+.temp {
+    font-size: 100px;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    height: 5vh;
+    border-top: 2px solid black;
+}
+
+.git {
+    height: 20px;
+    width: 20px;
+}

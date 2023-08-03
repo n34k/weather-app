@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <h1>GetWeather</h1>
+            <img class="logo" src="images/logo.png" alt="logo">
+        </div>
+        <div class="settings">
+            <div class="search">
+                <img class="magnify" src="images/search.png" alt="search">
+                <input placeholder="Type a city name..." type="text" id="city">
+                <button id="search">Search</button>
+            </div>
+            <div class="temp-type">
+                <div>Celcius?</div>
+                <input class="celcius" type="checkbox">
+            </div>
+        </div>
+        <div class="main">
+            <div class="current-info">
+                <h2 class="city-title"></h2>
+                <div class="temp"></div>
+                <div class="condition"></div>
+                <div class="humidity"></div>
+                <div class="uv"></div>
+            </div>
+        </div>
+        <div class="footer">
+            <div>Made by Nick Davis</div>
+            <a href="https://github.com/n34k"><img src="images/git.png" alt="my github" class="git link"></a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
